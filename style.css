@@ -186,20 +186,109 @@ nav {
     background-color: #30B868;
     border: 1px solid #30B868;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -- hero area end -- */
+
+
+/* -- notes area -- */
+.notes {
+    padding: 86px 0;
+    background-color: #fbfbfb;
+}
+
+.note-header {
+    margin-bottom: 74px;
+}
+
+.note-header h2 {
+    color: #001931
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.note-header p {
+    color: #627382;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.note-box-container {
+    display: flex;
+    gap: 19px;
+}
+
+.note-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-box .img-box {
+    background-color: #F95555;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-box .img-box img {
+    width: 26px;
+    height: auto;
+}
+
+.note-box {
+    background-color: #fff;
+    box-shadow: 2px 4px 26px rgba(0, 25, 49, 0.1);
+    padding: 29px 32px;
+    border-bottom: 2px solid #F95555;
+    border-radius: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.note-box:hover {
+    background-color: #F95555;
+}
+
+.note-box h3 {
+    color: #001931;
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.note-box p {
+    color: #627382;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.note-box:hover h3 {
+    color: #fff;
+}
+
+.note-box:hover p {
+    color: #fff;
+}
+/* -- notes area end -- */
