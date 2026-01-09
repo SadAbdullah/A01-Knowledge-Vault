@@ -40,13 +40,15 @@ nav {
     height: auto;
 }
 
-.nav-menu ul {
+.nav-menu ul,
+.footer-nav ul {
     list-style-type: none;
     display: flex;
     gap: 36px;
 }
 
-.nav-menu ul li a {
+.nav-menu ul li a,
+.footer-nav ul li a {
     color: #001931;
     font-family: Inter;
     font-style: Medium;
@@ -56,7 +58,8 @@ nav {
     text-decoration: none;
 }
 
-.nav-menu ul li a:hover {
+.nav-menu ul li a:hover,
+.footer-nav ul li a:hover {
     color: #30B868;
 }
 
@@ -91,7 +94,7 @@ nav {
     background-image: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 176px 0;
+    padding: 194px 0;
 }
 
 
@@ -314,7 +317,6 @@ nav {
 
 .second-brain-img img {
     border-radius: 4px;
-    box-shadow: 2px 4px 29px rgba(0, 25, 49, 0.3);
 }
 
 .second-brain-content h6 {
@@ -362,8 +364,6 @@ nav {
 
 
 /* -- early-access-btn -- */
-
-
 .early-access {
     padding-bottom: 86px;
     background-color: #fff;
@@ -373,8 +373,9 @@ nav {
     background-color: #F7F6F2;
     padding: 74px;
     border-radius: 4;
+    border-top: 1px solid #469165;
     border-bottom: 2px solid #F95555;
-    box-shadow: 2px 4px 29px rgba(0, 25, 49, 0.2);
+    box-shadow: 2px 4px 24px rgba(0, 25, 49, 0.2);
 }
 
 .early-access-container {
@@ -393,11 +394,70 @@ nav {
 }
 
 .early-access-btn button {
-    margin: 24px 0;
+    margin: 24px 0 11px;
 }
-
 /* -- early-access-btn end -- */
 
 
+
+/* -- footer area -- */
+.footer {
+    background-color: #001931;
+    padding: 86px 0 19px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+}
+
+.footer-social h6 {
+    color: #fff;
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    
+}
+
+.footer-social .fa-brands {
+    color: #001931;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    line-height: 1.9;
+    background-color: #fff;
+}
+
+.footer-copyright {
+    border-top: 1px solid rgba(221, 221, 221, 0.6);
+    margin-top: 49px;
+}
+
+.footer-copyright p {
+    color: rgb(221, 221, 221);
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 19px;
+}
+/* -- footer area end -- */
 
 
