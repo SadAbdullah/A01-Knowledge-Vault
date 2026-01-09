@@ -199,7 +199,8 @@ nav {
     margin-bottom: 74px;
 }
 
-.note-header h2 {
+.note-header h2,
+.second-brain-content h2 {
     color: #001931
     font-family: Inter;
     font-style: Bold;
@@ -210,7 +211,8 @@ nav {
     text-transform: capitalize;
 }
 
-.note-header p {
+.note-header p,
+.second-brain-content p {
     color: #627382;
     font-family: Inter;
     font-style: Regular;
@@ -250,7 +252,7 @@ nav {
 
 .note-box {
     background-color: #fff;
-    box-shadow: 2px 4px 26px rgba(0, 25, 49, 0.1);
+    box-shadow: 2px 4px 29px rgba(0, 25, 49, 0.1);
     padding: 29px 32px;
     border-bottom: 2px solid #F95555;
     border-radius: 4px;
@@ -292,3 +294,64 @@ nav {
     color: #fff;
 }
 /* -- notes area end -- */
+
+
+/* -- second-brain section */
+.second-brain {
+    padding: 86px 0;
+    background-color: #fff;
+}
+
+.second-brain-container {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+
+.second-brain-img img {
+    border-radius: 4px;
+    box-shadow: 2px 4px 29px rgba(0, 25, 49, 0.3);
+}
+
+.second-brain-content h6 {
+    color: #469165;
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.second-brain-content h2 {
+    text-align: left;
+}
+
+.second-brain-content p {
+    text-align: left;
+    margin-bottom: 29px;
+    line-height: 29px;
+}
+
+.second-brain-content ul {
+    list-style-type: none;
+}
+
+.second-brain-content ul li img {
+    display: inline-block;
+    width: 24px;
+    height: auto;
+    margin-bottom: -6px;
+}
+
+.second-brain-content ul li {
+    color: #001931;
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 16px;
+}
+/* -- second-brain section end */
